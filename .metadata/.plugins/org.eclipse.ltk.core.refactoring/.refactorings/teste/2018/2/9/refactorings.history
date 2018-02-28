@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 3 packages to &apos;campanha/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;teste&apos;&#x0D;&#x0A;- Destination element: &apos;campanha/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     teste/src/com.rest.campanha.models&#x0D;&#x0A;     teste/src/com.rest.campanha.respositories&#x0D;&#x0A;     teste/src/com.rest.campanhacontrollers" description="Copy packages" destination="=campanha/src\/main\/java" element1="/src&lt;com.rest.campanha.models" element2="/src&lt;com.rest.campanha.respositories" element3="/src&lt;com.rest.campanhacontrollers" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1519642843250" version="1.0"/>
-</session>
