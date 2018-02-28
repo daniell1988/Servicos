@@ -1,0 +1,20 @@
+package com.rest.sociotorcedor.respositories;
+
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+
+import com.rest.sociotorcedor.models.Socio;
+
+public class SocioRepositoryImpl implements SocioRepositoryCustom{
+
+	@Override
+	public boolean isCadastrado(Socio socio) {
+
+		Query query = new Query();
+		
+		query.addCriteria(new Criteria().where("email").is(socio.getEmail()));
+		operations.find(query, Campanha.class);
+		return true ;
+	}
+
+}

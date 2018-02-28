@@ -1,0 +1,15 @@
+package com.rest.sociotorcedor.respositories;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.rest.sociotorcedor.models.Campanha;
+
+public interface CampanhaRepository extends CrudRepository<Campanha, String> {
+	
+	@Override
+	Campanha findOne(String id);
+
+    @Override
+    void delete(Campanha deleted);
+
+}

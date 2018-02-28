@@ -1,0 +1,9 @@
+package com.rest.sociotorcedor.respositories;
+
+import com.rest.sociotorcedor.models.Socio;
+
+public interface SocioRepositoryCustom {
+	
+	public boolean isCadastrado(Socio socio);
+	
+}

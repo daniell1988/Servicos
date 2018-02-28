@@ -1,0 +1,19 @@
+1519635094092	Rename package 'com.websneakers.restapi.model'
+1519635620197	Rename package 'com.websneakers.controllers'
+1519641884351	Rename package 'com.websneakers.restapi.controllers'
+1519642019420	Rename package 'com.websneakers.restapi.campanha.controllers'
+1519642027156	Rename package 'com.websneakers.restapi.models'
+1519642037484	Rename package 'com.websneakers.restapi.respositories'
+1519642402637	Copy packages
+1519643130227	Rename package 'com.rest.campanhacontrollers'
+1519644712754	Copy packages
+1519712119570	Rename package 'com.rest.campanha.respositories'
+1519712257303	Delete element
+1519712286304	Rename type 'CampanhaCustomRpository'
+1519718445787	Delete element
+1519718498282	Rename type 'CampanhaCustomRepository'
+1519718517460	Rename type 'CampanhaCustomRepositoryImpl'
+1519718641740	Rename type 'CampanhaRepositoryCustomImpl'
+1519805744679	Delete element
+1519807000419	Delete element
+1519809511233	Copy compilation unit

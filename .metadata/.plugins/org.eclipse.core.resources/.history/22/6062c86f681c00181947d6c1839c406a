@@ -1,0 +1,27 @@
+package com.rest.sociotorcedor.respositories;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoOperations;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+
+import com.rest.sociotorcedor.models.Socio;
+
+public class SocioRepositoryImpl implements SocioRepositoryCustom{
+	
+	@Autowired private MongoOperations operations;
+
+	@Override
+	public boolean isCadastrado(Socio socio) {
+
+		Query query = new Query();
+		
+		query.addCriteria(new Criteria().where("email").is(socio.getEmail()));
+		List<Socio> usuario = operations.find(query, Socio.class);
+		
+		return usuario.isEmpty() ? false : true;
+	}
+
+}
